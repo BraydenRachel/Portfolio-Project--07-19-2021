@@ -1,0 +1,120 @@
+.container{
+    background: radial-gradient(#6f5964, #1f0f13);
+    width: 980px;
+    margin: 0 auto;
+}
+.header{
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    text-align: center;
+    display: flex;
+}
+#me{
+    border: 5px solid #c0c0c0;
+    max-width: 50%;
+    height: auto;
+    margin: 30px;
+    margin-right: 15px;
+}
+.MainText{
+    background: linear-gradient(to left, #dbcdda, #fefdfe);
+    margin: 30px;
+    margin-left: 15px;
+    text-align: left;
+}
+h1, h2, h3{
+    text-align: left;
+    padding-left: .5em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    margin: 0;
+}
+.GreyHeader, h3{
+    background: linear-gradient(#a9a8ae,#888694,#a9a8ae);
+	color: #fafcfa;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(to left, #dbcdda, #fefdfe);
+}
+a{
+    color: black;
+}
+.SubContainer{
+    text-align: center;
+    display: flex;
+    width: 980px;
+    margin-bottom: 30px;
+}
+.Box{
+    width: 286px;
+    display: inline-block;
+    background: linear-gradient(to left, #dbcdda, #fefdfe);
+
+}
+.Box img{
+    width: 286px;
+    height: auto;
+}
+.TopBox{
+    height: 420px;
+}
+.left{
+    margin-left: 30px;
+}
+.center{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.right{
+    margin-right: 30px;
+}
+.Technologies{
+    height: 150px;
+	display: block;
+	text-align: left;
+}
+.Technologies img{
+    width: 40px;
+	display: inline-block;
+	margin-left: 12px;
+	margin-top: 8px;
+}
+input[type=submit]{
+    color:#e8fbfe;
+	background-color: #407d61;
+	border: 2px black solid;
+	padding: .25em;
+	font-weight: bold;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px 1px silver;
+}
+.footer{
+    background-color: white;
+    padding: 10px;
+}
+.footer p1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.footer ul li img{
+    width: 20px;
+    vertical-align: middle;
+    margin: 5px;
+}
+.links{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+li{
+    display: inline;
+}
